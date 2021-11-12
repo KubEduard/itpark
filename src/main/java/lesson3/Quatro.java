@@ -9,7 +9,8 @@ public class Quatro {
         int b = -5;
         int c = 3;
         System.out.println("где а = " + a + ", b = " + b + ", c = " + c);
-        quatre(a, b, c);
+        int result = quatre(a, b, c);
+        System.out.println("Корней квадратного уравнения: " + result);
 
     }
 
