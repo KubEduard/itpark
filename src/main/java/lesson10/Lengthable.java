@@ -2,14 +2,14 @@ package lesson10;
 
 public interface Lengthable extends Convertable {
 
-    static void convLength(Length length) {
+    static void convLength(int length) {
         switch (length) {
-            case МИЛЛИМЕТРЫ -> System.out.println("перевод в миллиметры ");
-            case САНТИМЕТРЫ -> System.out.println("перевод в сантиметры ");
-            case ДЕЦИМЕТРЫ -> System.out.println("дециметры ");
-            case МЕТРЫ -> System.out.println("метры ");
-            case КИЛОМЕТРЫ -> System.out.println("километры ");
-            case NOSELECT -> System.out.println("не выбрали");
+            case 1 -> System.out.println("перевод в миллиметры ");
+            case 2 -> System.out.println("перевод в сантиметры ");
+            case 3 -> System.out.println("дециметры ");
+            case 4 -> System.out.println("метры ");
+            case 5 -> System.out.println("километры ");
+            case 0 -> System.out.println("не выбрали");
         }
     }
 }

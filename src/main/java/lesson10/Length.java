@@ -9,12 +9,12 @@ public enum Length {
         this.index = index;
     }
 
-    public static Length proverka(int index) {
+    public static int proverka(int index) {
         for (Length length : values()) {
             if (length.index == index) {
-                return length;
+                return length.index;
             }
         }
-        return Length.NOSELECT;
+        return 1;
     }
 }
