@@ -13,4 +13,8 @@ public class Count implements Convertable, Lengthable {
         System.out.println("Ожидается ввод числа в диапазоне от 1 до 5 !");
     }
 
+    @Override
+    public void print2() {
+        System.out.println("Введите положительное число для конвертации : ");
+    }
 }

@@ -4,6 +4,7 @@ public interface Convertable {
 
     void print();
     void print1();
+    void print2();
 
     default void conv(Length length) {
         switch (length) {

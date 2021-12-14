@@ -11,6 +11,7 @@ public class LengthRunner {
 
         Scanner chislo1 = new Scanner(System.in);
         Scanner chislo2 = new Scanner(System.in);
+        Scanner chislo3 = new Scanner(System.in);
 
         convertable.print1();
 
@@ -29,6 +30,13 @@ public class LengthRunner {
         }
 
         Lengthable.convLength(Length.proverka(chislo2.nextInt()));
+
+        convertable.print2();
+
+        while (!chislo3.hasNextInt()) {
+            convertable.print2();
+            chislo3.next();
+        }
 
     }
 }
