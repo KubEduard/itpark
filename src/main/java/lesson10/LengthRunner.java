@@ -13,10 +13,6 @@ public class LengthRunner {
         Metriable metriable = new Count();
         Kiloable kiloable = new Count();
 
-        Scanner chislo1 = new Scanner(System.in);
-        Scanner chislo2 = new Scanner(System.in);
-        Scanner chislo3 = new Scanner(System.in);
-
         convertable.print2();
 
         int n = chisloRez();
