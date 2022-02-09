@@ -18,7 +18,6 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "employees")
 public class EmployeeList {
-
     @XmlElement(name = "employee")
     private List<Employee> employees;
 }

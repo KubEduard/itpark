@@ -17,5 +17,4 @@ public class Employee {
     private String fio;
     private Department department;
     private Post post;
-
 }
